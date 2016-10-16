@@ -19,7 +19,6 @@ namespace Math
             Console.WriteLine("Enter c:");
             c = int.Parse(Console.ReadLine());
 
-
             if ((a*a + b*b) == c*c)
             {
                 Console.Write(" Numbers ");
@@ -27,9 +26,7 @@ namespace Math
                 Console.Write("b = " + b);
                 Console.Write("c = " + c);
                 Console.Write(" give Pythagorean Triples");
-
             }
-
             else
             {
                 Console.Write(" Numbers ");
@@ -37,7 +34,6 @@ namespace Math
                 Console.Write("b = " + b + ", ");
                 Console.Write("c = " + c);
                 Console.Write(" not give Pythagorean Triples");
-
             }
             Console.ReadKey();
             
