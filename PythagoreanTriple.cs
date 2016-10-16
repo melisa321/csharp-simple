@@ -18,6 +18,7 @@ namespace Math
             b = int.Parse(Console.ReadLine());
             Console.WriteLine("Enter c:");
             c = int.Parse(Console.ReadLine());
+            
 
             if ((a*a + b*b) == c*c)
             {
